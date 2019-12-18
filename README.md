@@ -9,7 +9,7 @@
 
 -->
 
-# Project name here
+# Welcome to helloword_nbdev
 
 > Summary description here.
 
@@ -26,8 +26,8 @@ Fill me in please! Don't forget code examples:
 <div class="codecell" markdown="1">
 <div class="input_area" markdown="1">
 
-```
-1+1
+```python
+say_hello('puneet')
 ```
 
 </div>
@@ -36,7 +36,7 @@ Fill me in please! Don't forget code examples:
 
 
 
-    2
+    'Hello to puneet!'
 
 
 
