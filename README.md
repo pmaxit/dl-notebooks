@@ -13,6 +13,17 @@
 
 > Summary description here.
 
+<div class="codecell" markdown="1">
+<div class="input_area" markdown="1">
+
+```python
+%load_ext autoreload
+%autoreload 2
+```
+
+</div>
+
+</div>
 
 This file will become your README and also the index of your documentation.
 
@@ -39,6 +50,19 @@ say_hello('puneet')
     'Hello to puneet!'
 
 
+
+</div>
+
+</div>
+
+# We can create a console script as well. To test it out, let's create a script named helloname
+<div class="codecell" markdown="1">
+<div class="input_area" markdown="1">
+
+```python
+def helloname():
+    print("hello world")
+```
 
 </div>
 
