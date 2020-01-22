@@ -8,9 +8,9 @@
 
 -->
 
-# Welcome to helloword_nbdev
+# Welcome to Deep Learning notebook
 
-> Summary description here.
+> Deep Learning notebook to practice the techniques
 
 <div class="codecell" markdown="1">
 <div class="input_area" markdown="1">
@@ -35,63 +35,7 @@ from nbdev.showdoc import *
 
 </div>
 
-This file will become your README and also the index of your documentation.
+# Topics covered
 
-## Install
-
-`pip install your_project_name`
-
-## How to use
-
-Fill me in please! Don't forget code examples:
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-say_hello('puneet')
-```
-
-</div>
-<div class="output_area" markdown="1">
-
-    to  puneet
-    
-
-</div>
-
-</div>
-
-# We can create a console script as well. To test it out, let's create a script named helloname
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-def helloname():
-    'dummy function for helloname , `helloname`'
-    print("hello world")
-```
-
-</div>
-
-</div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-#show_doc(helloname)
-```
-
-</div>
-<div class="output_area" markdown="1">
-
-
-<h4 id="helloname" class="doc_header"><code>helloname</code><a href="__main__.py#L1" class="source_link" style="float:right">[source]</a></h4>
-
-> <code>helloname</code>()
-
-dummy function for helloname , `helloname`
-
-
-</div>
-
-</div>
+1. Simple CNN
+2. 
