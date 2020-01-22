@@ -1,4 +1,3 @@
-
 <!--
 
 #################################################
@@ -24,6 +23,17 @@
 </div>
 
 </div>
+<div class="codecell" markdown="1">
+<div class="input_area" markdown="1">
+
+```python
+from dlnotebooks.core import *
+from nbdev.showdoc import *
+```
+
+</div>
+
+</div>
 
 This file will become your README and also the index of your documentation.
 
@@ -44,12 +54,8 @@ say_hello('puneet')
 </div>
 <div class="output_area" markdown="1">
 
-
-
-
-    'Hello to puneet!'
-
-
+    to  puneet
+    
 
 </div>
 
@@ -61,8 +67,30 @@ say_hello('puneet')
 
 ```python
 def helloname():
+    'dummy function for helloname , `helloname`'
     print("hello world")
 ```
+
+</div>
+
+</div>
+<div class="codecell" markdown="1">
+<div class="input_area" markdown="1">
+
+```python
+#show_doc(helloname)
+```
+
+</div>
+<div class="output_area" markdown="1">
+
+
+<h4 id="helloname" class="doc_header"><code>helloname</code><a href="__main__.py#L1" class="source_link" style="float:right">[source]</a></h4>
+
+> <code>helloname</code>()
+
+dummy function for helloname , `helloname`
+
 
 </div>
 
