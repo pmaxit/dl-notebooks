@@ -11,6 +11,7 @@ from fastai2.vision.all import *
 from fastai2.data.all import *
 from fastai2.vision.core import *
 from fastai2.vision.data import *
+import matplotlib.pyplot as plt
 
 # Cell
 class SimpleCNN(nn.Module):
