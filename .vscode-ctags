@@ -3046,7 +3046,10 @@ $	docs/js/jquery.ba-throttle-debounce.min.js	/^(function(b,c){var $=b.jQuery||b.
 .well blockquote	docs/css/bootstrap.min.css	/^.well blockquote {$/;"	s
 .well-lg	docs/css/bootstrap.min.css	/^.well-lg {$/;"	c
 .well-sm	docs/css/bootstrap.min.css	/^.well-sm {$/;"	c
+0	.vscode/tasks.json	/^            "dependsOn":["nbdev-build-lib"],$/;"	s	array:tasks.1.dependsOn
+0	.vscode/tasks.json	/^        {$/;"	o	array:tasks
 0	docs/tooltips.json	/^{% for page in site.tooltips %}$/;"	o	array:entries
+1	.vscode/tasks.json	/^        {$/;"	o	array:tasks
 1	docs/tooltips.json	/^"body": "{{ page.content | strip_newlines | replace: '\\', '\\\\\\\\' | replace: '"', '\\\\"' }}/;"	s	array:entries
 2	docs/tooltips.json	/^"body": "{{ page.content | strip_newlines | replace: '\\', '\\\\\\\\' | replace: '"', '\\\\"' }}/;"	z	array:entries
 3	docs/tooltips.json	/^} {% unless forloop.last %},{% endunless %}$/;"	o	array:entries
@@ -3118,52 +3121,103 @@ AnonymousFunctionf0b6db811700	docs/js/jquery.shuffle.min.js	/^  return this.each
 AnonymousFunctionf0b6db811800	docs/js/jquery.shuffle.min.js	/^    arr.sort(function(a, b) {$/;"	f
 B	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";"/;"	f	function:window.Modernizr
 BASE	docs/js/jquery.shuffle.min.js	/^  BASE: SHUFFLE,$/;"	p	class:Shuffle.ClassName
+BasicBlock	dlnotebooks/models/resnet.py	/^class BasicBlock(nn.Module):$/;"	c
+BottleNeck	dlnotebooks/models/resnet.py	/^class BottleNeck(nn.Module):$/;"	c
+BottleNeck	docs/03-Densenet.html	/^<h2 id="BottleNeck" class="doc_header"><code>class<\/code> <code>BottleNeck<\/code><a href="http/;"	I
 C	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";"/;"	f	function:window.Modernizr
+CIFAR	docs/CIFAR.html	/^<h1 id="CIFAR">CIFAR<a class="anchor-link" href="#CIFAR">&#182;<\/a><\/h1>$/;"	I
+CIFAR&#182;	docs/CIFAR.html	/^<h1 id="CIFAR">CIFAR<a class="anchor-link" href="#CIFAR">&#182;<\/a><\/h1>$/;"	h
 CONCEALED	docs/js/jquery.shuffle.min.js	/^  CONCEALED: 'concealed'$/;"	p	class:Shuffle.ClassName
+Caveats	docs/Cifar 10-Densenet.html	/^<h1 id="Caveats">Caveats<a class="anchor-link" href="#Caveats">&#182;<\/a><\/h1>$/;"	I
+Caveats&#182;	docs/Cifar 10-Densenet.html	/^<h1 id="Caveats">Caveats<a class="anchor-link" href="#Caveats">&#182;<\/a><\/h1>$/;"	h
 ClassName	docs/js/jquery.shuffle.min.js	/^Shuffle.ClassName = {$/;"	c	class:Shuffle
+ConvNet	dlnotebooks/models/_simplecnn.py	/^class ConvNet(nn.Module):$/;"	c
+Create data source&#182;	docs/CIFAR.html	/^<h1 id="Create-data-source">Create data source<a class="anchor-link" href="#Create-data-source">/;"	h
+Create-data-source	docs/CIFAR.html	/^<h1 id="Create-data-source">Create data source<a class="anchor-link" href="#Create-data-source">/;"	I
 D	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";"/;"	f	function:window.Modernizr
 DEFAULT	settings.ini	/^[DEFAULT]$/;"	s
 DONE	docs/js/jquery.shuffle.min.js	/^  DONE: 'done',$/;"	p	class:Shuffle.EventType
+Data Loader&#182;	docs/CIFAR.html	/^<h1 id="Data-Loader">Data Loader<a class="anchor-link" href="#Data-Loader">&#182;<\/a><\/h1><p>A/;"	h
+Data-Loader	docs/CIFAR.html	/^<h1 id="Data-Loader">Data Loader<a class="anchor-link" href="#Data-Loader">&#182;<\/a><\/h1><p>A/;"	I
+Decoder	dlnotebooks/models/vae.py	/^class Decoder(nn.Module):$/;"	c
+DenseBlock	docs/03-Densenet.html	/^<h2 id="DenseBlock" class="doc_header"><code>class<\/code> <code>DenseBlock<\/code><a href="http/;"	I
+DenseNet	docs/03-Densenet.html	/^<h2 id="DenseNet" class="doc_header"><code>class<\/code> <code>DenseNet<\/code><a href="https:\//;"	I
+Densenet	docs/Cifar 10-Densenet.html	/^<h1 id="Densenet">Densenet<a class="anchor-link" href="#Densenet">&#182;<\/a><\/h1>$/;"	I
+Densenet&#182;	docs/Cifar 10-Densenet.html	/^<h1 id="Densenet">Densenet<a class="anchor-link" href="#Densenet">&#182;<\/a><\/h1>$/;"	h
 Did you find a bug?	CONTRIBUTING.md	/^## Did you find a bug?$/;"	s
 Did you write a patch that fixes a bug?	CONTRIBUTING.md	/^#### Did you write a patch that fixes a bug?$/;"	t
 Do you want to contribute to the documentation?	CONTRIBUTING.md	/^## Do you want to contribute to the documentation?$/;"	s
 E	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";"/;"	f	function:window.Modernizr
+Encoder	dlnotebooks/models/vae.py	/^class Encoder(nn.Module):$/;"	c
 EventType	docs/js/jquery.shuffle.min.js	/^Shuffle.EventType = {$/;"	c	class:Shuffle
+F	dlnotebooks/models/resnet.py	/^import torch.nn.functional as F$/;"	I
+F	dlnotebooks/models/vae.py	/^import torch.nn.functional as F$/;"	I
 F	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";"/;"	f	function:window.Modernizr
 FILTERED	docs/js/jquery.shuffle.min.js	/^  FILTERED: 'filtered',$/;"	p	class:Shuffle.ClassName
 FontAwesome	docs/css/fonts/fontawesome-webfont.svg	/^<font id="FontAwesome" horiz-adv-x="1536" >$/;"	d
 FontAwesome	docs/css/fonts/fontawesome-webfont.svg	/^<font id="FontAwesome" horiz-adv-x="1536" >$/;"	i
 FuzzySearchStrategy	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:AnonymousFunction852f2b620300
+Gathering the data&#182;	docs/CIFAR.html	/^<h1 id="Gathering-the-data">Gathering the data<a class="anchor-link" href="#Gathering-the-data">/;"	h
+Gathering-the-data	docs/CIFAR.html	/^<h1 id="Gathering-the-data">Gathering the data<a class="anchor-link" href="#Gathering-the-data">/;"	I
 How to contribute	CONTRIBUTING.md	/^# How to contribute$/;"	c
 How to get started	CONTRIBUTING.md	/^## How to get started$/;"	s
-How to use	README.md	/^## How to use$/;"	s
-How to use&#182;	docs/index.html	/^<h2 id="How-to-use">How to use<a class="anchor-link" href="#How-to-use">&#182;<\/a><\/h2>$/;"	i
-How-to-use	docs/index.html	/^<h2 id="How-to-use">How to use<a class="anchor-link" href="#How-to-use">&#182;<\/a><\/h2>$/;"	I
-Install	README.md	/^## Install$/;"	s
-Install	docs/index.html	/^<h2 id="Install">Install<a class="anchor-link" href="#Install">&#182;<\/a><\/h2>$/;"	I
-Install&#182;	docs/index.html	/^<h2 id="Install">Install<a class="anchor-link" href="#Install">&#182;<\/a><\/h2>$/;"	i
 LAYOUT	docs/js/jquery.shuffle.min.js	/^  LAYOUT: 'layout',$/;"	p	class:Shuffle.EventType
 LOADING	docs/js/jquery.shuffle.min.js	/^  LOADING: 'loading',$/;"	p	class:Shuffle.EventType
+Learner	docs/CIFAR.html	/^<h1 id="Learner">Learner<a class="anchor-link" href="#Learner">&#182;<\/a><\/h1>$/;"	I
+Learner&#182;	docs/CIFAR.html	/^<h1 id="Learner">Learner<a class="anchor-link" href="#Learner">&#182;<\/a><\/h1>$/;"	h
 LiteralSearchStrategy	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:AnonymousFunction852f2b620400
+Load the dataset&#182;	docs/East.html	/^<h1 id="Load-the-dataset">Load the dataset<a class="anchor-link" href="#Load-the-dataset">&#182;/;"	h
+Load-the-dataset	docs/East.html	/^<h1 id="Load-the-dataset">Load the dataset<a class="anchor-link" href="#Load-the-dataset">&#182;/;"	I
+Model	docs/simpleCNN.html	/^<h1 id="Model">Model<a class="anchor-link" href="#Model">&#182;<\/a><\/h1>$/;"	I
+Model&#182;	docs/simpleCNN.html	/^<h1 id="Model">Model<a class="anchor-link" href="#Model">&#182;<\/a><\/h1>$/;"	h
 Modernizr	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";"/;"	f	function:window
 Overview	docs/sidebar.json	/^    "Overview": "\/",$/;"	s	object:dlnotebooks
 PR submission guidelines	CONTRIBUTING.md	/^## PR submission guidelines$/;"	s
 Point	docs/js/jquery.shuffle.min.js	/^var Point = function(x, y) {$/;"	c	class:AnonymousFunctionf0b6db810300
 REMOVED	docs/js/jquery.shuffle.min.js	/^  REMOVED: 'removed'$/;"	p	class:Shuffle.EventType
+ResNet2	dlnotebooks/models/resnet.py	/^class ResNet2(nn.Module):$/;"	c
 SHUFFLE_ITEM	docs/js/jquery.shuffle.min.js	/^  SHUFFLE_ITEM: 'shuffle-item',$/;"	p	class:Shuffle.ClassName
 SRC	Makefile	/^SRC = $(wildcard .\/*.ipynb)$/;"	m
 Shuffle	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype._init = function() {$/;"	c
 Shuffle	docs/js/jquery.shuffle.min.js	/^var Shuffle = function( element, options ) {$/;"	c	class:AnonymousFunctionf0b6db810300
+Simple	docs/CIFAR.html	/^<h1 id="Simple">Simple<a class="anchor-link" href="#Simple">&#182;<\/a><\/h1>$/;"	I
+Simple CNN&#182;	docs/simpleCNN.html	/^<h1 id="Simple-CNN">Simple CNN<a class="anchor-link" href="#Simple-CNN">&#182;<\/a><\/h1>$/;"	h
+Simple Linear Connected&#182;	docs/CIFAR.html	/^<h1 id="Simple-Linear-Connected">Simple Linear Connected<a class="anchor-link" href="#Simple-Lin/;"	h
+Simple&#182;	docs/CIFAR.html	/^<h1 id="Simple">Simple<a class="anchor-link" href="#Simple">&#182;<\/a><\/h1>$/;"	h
+Simple-CNN	docs/simpleCNN.html	/^<h1 id="Simple-CNN">Simple CNN<a class="anchor-link" href="#Simple-CNN">&#182;<\/a><\/h1>$/;"	I
+Simple-Linear-Connected	docs/CIFAR.html	/^<h1 id="Simple-Linear-Connected">Simple Linear Connected<a class="anchor-link" href="#Simple-Lin/;"	I
+SimpleCNN	dlnotebooks/models/_simplecnn.py	/^class SimpleCNN(nn.Module):$/;"	c
+SimpleCNN	docs/simpleCNN.html	/^<h2 id="SimpleCNN" class="doc_header"><code>class<\/code> <code>SimpleCNN<\/code><a href="https:/;"	I
+SimpleCNNWITHBN	dlnotebooks/models/_simplecnn.py	/^class SimpleCNNWITHBN(nn.Module):$/;"	c
 SimpleJekyllSearch	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:AnonymousFunction852f2b620900
-Special comments&#182;	docs/core.html	/^<h1 id="Special-comments">Special comments<a class="anchor-link" href="#Special-comments">&#182;/;"	h
-Special-comments	docs/core.html	/^<h1 id="Special-comments">Special comments<a class="anchor-link" href="#Special-comments">&#182;/;"	I
-THIS FILE WAS AUTOGENERATED! DO NOT EDIT!	README.md	/^### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###$/;"	S
+SingleLayer	docs/03-Densenet.html	/^<h2 id="SingleLayer" class="doc_header"><code>class<\/code> <code>SingleLayer<\/code><a href="ht/;"	I
+SleepyBatchFunc	dlnotebooks/test.py	/^class SleepyBatchFunc:$/;"	c
 TRANSITIONEND	docs/js/jquery.shuffle.min.js	/^var TRANSITIONEND = {$/;"	c	class:AnonymousFunctionf0b6db810300
+Title	docs/sidebar.json	/^    "Title": "\/simpleCNN"$/;"	s	object:dlnotebooks
+Topics covered	README.md	/^# Topics covered$/;"	c
+Topics covered&#182;	docs/index.html	/^<h1 id="Topics-covered">Topics covered<a class="anchor-link" href="#Topics-covered">&#182;<\/a></;"	h
+Topics-covered	docs/index.html	/^<h1 id="Topics-covered">Topics covered<a class="anchor-link" href="#Topics-covered">&#182;<\/a></;"	I
+Transition	docs/03-Densenet.html	/^<h2 id="Transition" class="doc_header"><code>class<\/code> <code>Transition<\/code><a href="http/;"	I
 WebkitTransition	docs/js/jquery.shuffle.min.js	/^  'WebkitTransition' : 'webkitTransitionEnd',$/;"	p	class:AnonymousFunctionf0b6db810300.TRANSITIONEND
-Welcome to helloword_nbdev	README.md	/^# Welcome to helloword_nbdev$/;"	c
+Welcome to Deep Learning notebook	README.md	/^# Welcome to Deep Learning notebook$/;"	c
+Why we use CIFAR dataset&#182;	docs/CIFAR.html	/^<h3 id="Why-we-use-CIFAR-dataset">Why we use CIFAR dataset<a class="anchor-link" href="#Why-we-u/;"	j
+Why-we-use-CIFAR-dataset	docs/CIFAR.html	/^<h3 id="Why-we-use-CIFAR-dataset">Why we use CIFAR dataset<a class="anchor-link" href="#Why-we-u/;"	I
 __all__	dlnotebooks/_nbdev.py	/^__all__ = ["index", "modules", "custom_doc_links", "git_url"]$/;"	v
-__all__	dlnotebooks/core.py	/^__all__ = ['new_function', 'say_hello', 'helloSayer', 'helloname']$/;"	v
-__init__	dlnotebooks/core.py	/^    def __init__(self, to): self.to = to$/;"	m	class:helloSayer
+__all__	dlnotebooks/core.py	/^__all__ = ['say_hello']$/;"	v
+__all__	dlnotebooks/models/_simplecnn.py	/^__all__ = ['SimpleCNN', 'SimpleCNNWITHBN', 'ConvNet']$/;"	v
+__all__	dlnotebooks/models/resnet.py	/^__all__ = ['model_urls', 'conv3x3', 'BasicBlock', 'BottleNeck', 'ResNet2']$/;"	v
+__all__	dlnotebooks/models/vae.py	/^__all__ = ['Encoder', 'Decoder', 'init_weights']$/;"	v
+__call__	dlnotebooks/test.py	/^    def __call__(self, batch):$/;"	m	class:SleepyBatchFunc
+__init__	dlnotebooks/models/_simplecnn.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:SimpleCNN
+__init__	dlnotebooks/models/_simplecnn.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:SimpleCNNWITHBN
+__init__	dlnotebooks/models/_simplecnn.py	/^    def __init__(self, layers, c):$/;"	m	class:ConvNet
+__init__	dlnotebooks/models/resnet.py	/^    def __init__(self, block, layers,  num_classes = 10):$/;"	m	class:ResNet2
+__init__	dlnotebooks/models/resnet.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	m	class:BasicBlock
+__init__	dlnotebooks/models/resnet.py	/^    def __init__(self, inplanes, planes, stride=1, downsample=None):$/;"	m	class:BottleNeck
+__init__	dlnotebooks/models/vae.py	/^    def __init__(self, dim_z, n_hidden, n_output, keep_prob):$/;"	m	class:Decoder
+__init__	dlnotebooks/models/vae.py	/^    def __init__(self, imgsz, n_hidden, n_output, keep_prob):$/;"	m	class:Encoder
+__init__	dlnotebooks/test.py	/^    def __init__(self): self.a=1$/;"	m	class:SleepyBatchFunc
+__version__	dlnotebooks/__init__.py	/^__version__ = "0.0.1"$/;"	v
 _addItems	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype._addItems = function( $newItems, addToEnd, isSequential ) {$/;"	m	class:Shuffle
 _addItemsToEnd	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype._addItemsToEnd = function( $newItems, isSequential ) {$/;"	m	class:Shuffle
 _animations	docs/js/jquery.shuffle.min.js	/^  _animations: [],$/;"	p	class:Shuffle.settings
@@ -3196,6 +3250,7 @@ _layout	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype._layout = function( it
 _layoutEnd	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype._layoutEnd = function() {$/;"	m	class:Shuffle
 _layoutItem	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype._layoutItem = function( item, isOnlyPosition ) {$/;"	m	class:Shuffle
 _load	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	m	class:b
+_make_layer	dlnotebooks/models/resnet.py	/^    def _make_layer(self, block, planes, blocks, stride=1):$/;"	m	class:ResNet2
 _movementFinished	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype._movementFinished = function() {$/;"	m	class:Shuffle
 _onResize	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype._onResize = function() {$/;"	m	class:Shuffle
 _parents	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	m	class:b
@@ -3387,14 +3442,22 @@ caption	docs/css/customstyles.css	/^caption {$/;"	s
 caretHtml	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	p	class:a.fn.navgoco.defaults
 cfg	setup.py	/^cfg = config['DEFAULT']$/;"	v
 cfg_keys	setup.py	/^cfg_keys = 'version description keywords author author_email'.split()$/;"	v
+class BottleNeck[source]	docs/03-Densenet.html	/^<h2 id="BottleNeck" class="doc_header"><code>class<\/code> <code>BottleNeck<\/code><a href="http/;"	i
+class DenseBlock[source]	docs/03-Densenet.html	/^<h2 id="DenseBlock" class="doc_header"><code>class<\/code> <code>DenseBlock<\/code><a href="http/;"	i
+class DenseNet[source]	docs/03-Densenet.html	/^<h2 id="DenseNet" class="doc_header"><code>class<\/code> <code>DenseNet<\/code><a href="https:\//;"	i
+class SimpleCNN[source]	docs/simpleCNN.html	/^<h2 id="SimpleCNN" class="doc_header"><code>class<\/code> <code>SimpleCNN<\/code><a href="https:/;"	i
+class SingleLayer[source]	docs/03-Densenet.html	/^<h2 id="SingleLayer" class="doc_header"><code>class<\/code> <code>SingleLayer<\/code><a href="ht/;"	i
+class Transition[source]	docs/03-Densenet.html	/^<h2 id="Transition" class="doc_header"><code>class<\/code> <code>Transition<\/code><a href="http/;"	i
 clean	Makefile	/^clean:$/;"	t
 clear	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:self
 code	docs/css/bootstrap.min.css	/^code,$/;"	s
 code	docs/css/customstyles.css	/^code {$/;"	s
 columnWidth	docs/js/jquery.shuffle.min.js	/^  columnWidth: 0, \/\/ A static number or function that returns a number which tells the plugin /;"	p	class:Shuffle.options
-command to build the docs after a change: nbdev_build_docs	README.md	/^# command to build the docs after a change: nbdev_build_docs$/;"	c
+command	.vscode/tasks.json	/^            "command": "nbdev_build_docs",$/;"	s	object:tasks.1
+command	.vscode/tasks.json	/^            "command": "nbdev_build_lib",$/;"	s	object:tasks.0
 config	setup.py	/^config = ConfigParser(delimiters=['='])$/;"	v
 console_scripts	settings.ini	/^console_scripts = helloname=dlnotebooks.core:helloname$/;"	k	section:DEFAULT
+conv3x3	dlnotebooks/models/resnet.py	/^def conv3x3(in_planes, out_planes, stride=1):$/;"	f
 cookie	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	c	class:a.fn.navgoco.defaults
 copyright	settings.ini	/^copyright = HMS$/;"	k	section:DEFAULT
 createFuzzyRegExpFromString	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:AnonymousFunction852f2b620300.FuzzySearchStrategy
@@ -3403,6 +3466,8 @@ csstransforms3d	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c)
 csstransitions	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";"/;"	f	function:q
 custom_doc_links	dlnotebooks/_nbdev.py	/^def custom_doc_links(name): return None/;"	f
 custom_sidebar	settings.ini	/^custom_sidebar = False$/;"	k	section:DEFAULT
+cwd	.vscode/tasks.json	/^                "cwd": "${workspaceFolder}"$/;"	s	object:tasks.0.options
+cwd	.vscode/tasks.json	/^                "cwd": "${workspaceFolder}"$/;"	s	object:tasks.1.options
 d	docs/js/jquery.ba-throttle-debounce.min.js	/^(function(b,c){var $=b.jQuery||b.Cowboy||(b.Cowboy={}),a;$.throttle=a=function(e,f,j,i){var h,d=/;"	v
 dashify	docs/js/jquery.shuffle.min.js	/^function dashify( prop ) {$/;"	f	function:AnonymousFunctionf0b6db810300
 data-toggle	docs/css/bootstrap.min.css	/^[data-toggle=buttons]>.btn input[type=checkbox],$/;"	s
@@ -3419,6 +3484,7 @@ defaults	docs/js/jquery.shuffle.min.js	/^$.fn.sorted.defaults = {$/;"	c	class:$.
 defaults	docs/js/toc.js	/^    var defaults = {$/;"	c	class:$.fn.toc
 defer	docs/js/jquery.shuffle.min.js	/^function defer(fn, context, wait) {$/;"	f	function:AnonymousFunctionf0b6db810300
 delimeter	docs/js/jquery.shuffle.min.js	/^  delimeter: null, \/\/ If your group is not json, and is comma delimeted, you could set delimet/;"	p	class:Shuffle.options
+dependsOn	.vscode/tasks.json	/^            "dependsOn":["nbdev-build-lib"],$/;"	a	object:tasks.1
 description	settings.ini	/^description = Tutorial project for Deep learning$/;"	k	section:DEFAULT
 destroy	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	m	class:b
 destroy	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype.destroy = function() {$/;"	m	class:Shuffle
@@ -3453,6 +3519,8 @@ dl-notebooks	Makefile	/^dl-notebooks: $(SRC)$/;"	t
 dl.dl-horizontal dd	docs/css/customstyles.css	/^dl.dl-horizontal dd {$/;"	s
 dlnotebooks	docs/sidebar.json	/^  "dlnotebooks": {$/;"	o
 doMatch	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:AnonymousFunction852f2b620400.LiteralSearchStrategy
+doc_baseurl	settings.ini	/^doc_baseurl = \/dlnotebooks\/$/;"	k	section:DEFAULT
+doc_host	settings.ini	/^doc_host = https:\/\/pmaxit.github.io$/;"	k	section:DEFAULT
 doc_path	settings.ini	/^doc_path = docs$/;"	k	section:DEFAULT
 docs	Makefile	/^docs: $(SRC)$/;"	t
 dt	docs/css/bootstrap.min.css	/^dt {$/;"	s
@@ -3466,6 +3534,8 @@ enable	docs/js/jquery.shuffle.min.js	/^Shuffle.prototype.enable = function( isUp
 enabled	docs/js/jquery.shuffle.min.js	/^  enabled: true,$/;"	p	class:Shuffle.settings
 entries	docs/tooltips.json	/^"entries":$/;"	a
 equals	docs/js/jquery.shuffle.min.js	/^Point.equals = function(a, b) {$/;"	f	function:Point
+expansion	dlnotebooks/models/resnet.py	/^    expansion = 1$/;"	v	class:BasicBlock
+expansion	dlnotebooks/models/resnet.py	/^    expansion = 4$/;"	v	class:BottleNeck
 expected	setup.py	/^expected = cfg_keys + "lib_name user branch license status min_python audience language".split()$/;"	v
 expires	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	p	class:a.fn.navgoco.defaults.cookie
 exports	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:module
@@ -3526,7 +3596,6 @@ figcaption	docs/css/bootstrap.min.css	/^figcaption,$/;"	s
 figcaption	docs/css/customstyles.css	/^figcaption {$/;"	s
 figure	docs/css/bootstrap.min.css	/^figure {$/;"	s
 figure	docs/css/bootstrap.min.css	/^figure,$/;"	s
-file to edit: index.ipynb	README.md	/^# file to edit: index.ipynb$/;"	c
 findMatches	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:module.exports
 findMatchesInObject	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:module.exports
 fontawesomeregular	docs/fonts/fontawesome-webfont.svg	/^<font id="fontawesomeregular" horiz-adv-x="1536" >$/;"	d
@@ -3534,6 +3603,14 @@ fontawesomeregular	docs/fonts/fontawesome-webfont.svg	/^<font id="fontawesomereg
 footer	docs/css/bootstrap.min.css	/^footer,$/;"	s
 footer	docs/css/customstyles.css	/^footer {$/;"	s
 footer	docs/css/modern-business.css	/^footer {$/;"	s
+forward	dlnotebooks/models/_simplecnn.py	/^    def forward(self, x):$/;"	m	class:ConvNet
+forward	dlnotebooks/models/_simplecnn.py	/^    def forward(self, x):$/;"	m	class:SimpleCNN
+forward	dlnotebooks/models/_simplecnn.py	/^    def forward(self, x):$/;"	m	class:SimpleCNNWITHBN
+forward	dlnotebooks/models/resnet.py	/^    def forward(self, x):$/;"	m	class:BasicBlock
+forward	dlnotebooks/models/resnet.py	/^    def forward(self, x):$/;"	m	class:BottleNeck
+forward	dlnotebooks/models/resnet.py	/^    def forward(self, x):$/;"	m	class:ResNet2
+forward	dlnotebooks/models/vae.py	/^    def forward(self, h):$/;"	m	class:Decoder
+forward	dlnotebooks/models/vae.py	/^    def forward(self, x):$/;"	m	class:Encoder
 fuzzy	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	p	class:AnonymousFunction852f2b620900.SimpleJekyllSearch.opt
 g	docs/js/jquery.ba-throttle-debounce.min.js	/^(function(b,c){var $=b.jQuery||b.Cowboy||(b.Cowboy={}),a;$.throttle=a=function(e,f,j,i){var h,d=/;"	f
 gcs-search-container	docs/_includes/search_google_custom.html	/^<div id="gcs-search-container">$/;"	I
@@ -3541,9 +3618,11 @@ getNumber	docs/js/jquery.shuffle.min.js	/^function getNumber(value) {$/;"	f	func
 getSearchStrategy	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:module.exports
 get_level	docs/js/toc.js	/^    var get_level = function(ele) { return parseInt(ele.nodeName.replace("H", ""), 10); }$/;"	f	function:$.fn.toc
 git_url	dlnotebooks/_nbdev.py	/^git_url = "https:\/\/github.com\/pmaxit\/dlnotebooks\/tree\/master\/"$/;"	v
-git_url	settings.ini	/^git_url = https:\/\/github.com\/%(user)s\/%(lib_name)s\/tree\/%(branch)s\/$/;"	k	section:DEFAULT
+git_url	settings.ini	/^git_url = https:\/\/github.com\/pmaxit\/dlnotebooks\/tree\/master\/$/;"	k	section:DEFAULT
 glyphicons_halflingsregular	docs/fonts/glyphicons-halflings-regular.svg	/^<font id="glyphicons_halflingsregular" horiz-adv-x="1200" >$/;"	d
 glyphicons_halflingsregular	docs/fonts/glyphicons-halflings-regular.svg	/^<font id="glyphicons_halflingsregular" horiz-adv-x="1200" >$/;"	i
+group	.vscode/tasks.json	/^            "group": {$/;"	o	object:tasks.0
+group	.vscode/tasks.json	/^            "group":{$/;"	o	object:tasks.1
 group	docs/js/jquery.shuffle.min.js	/^  group: ALL_ITEMS, \/\/ Initial filter group.$/;"	p	class:Shuffle.options
 gutterWidth	docs/js/jquery.shuffle.min.js	/^  gutterWidth: 0, \/\/ A static number or function that tells the plugin how wide the gutters be/;"	p	class:Shuffle.options
 h	docs/js/jquery.ba-throttle-debounce.min.js	/^(function(b,c){var $=b.jQuery||b.Cowboy||(b.Cowboy={}),a;$.throttle=a=function(e,f,j,i){var h,d=/;"	v
@@ -3603,8 +3682,6 @@ header.carousel .item	docs/css/modern-business.css	/^header.carousel .item,$/;"	
 header.carousel .item.active	docs/css/modern-business.css	/^header.carousel .item.active,$/;"	c
 headers	docs/js/toc.js	/^      headers: 'h1, h2, h3, h4',$/;"	p	class:$.fn.toc.defaults
 height	docs/js/jquery.shuffle.min.js	/^    height: Shuffle._getOuterHeight( item, true )$/;"	p	class:Shuffle._layoutItem.itemSize
-helloSayer	dlnotebooks/core.py	/^class helloSayer:$/;"	c
-helloname	dlnotebooks/core.py	/^def helloname(fname: Param("A notebook name or globe to convert", str)=None):$/;"	f
 hgroup	docs/css/bootstrap.min.css	/^hgroup,$/;"	s
 hidden	docs/css/bootstrap.min.css	/^[hidden],$/;"	s
 hr	docs/css/bootstrap.min.css	/^hr {$/;"	s
@@ -3622,11 +3699,13 @@ img	docs/css/bootstrap.min.css	/^    img,$/;"	s
 img	docs/css/bootstrap.min.css	/^img {$/;"	s
 img.screenshotSmall	docs/css/customstyles.css	/^img.screenshotSmall {$/;"	c
 img[src$=".svg"]	docs/css/customstyles.css	/^    img[src$=".svg"] {$/;"	s
-index	dlnotebooks/_nbdev.py	/^index = {"new_function": "00_core.ipynb",$/;"	v
+index	dlnotebooks/_nbdev.py	/^index = {"Encoder": "04_vae.ipynb",$/;"	v
 init	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:self
 init	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	m	class:b
 initWithJSON	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:AnonymousFunction852f2b620900.SimpleJekyllSearch
 initWithURL	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:AnonymousFunction852f2b620900.SimpleJekyllSearch
+init_	dlnotebooks/models/vae.py	/^    def init_(m):$/;"	f	function:init_weights	file:
+init_weights	dlnotebooks/models/vae.py	/^def init_weights(encoder, decoder):$/;"	f
 initialSort	docs/js/jquery.shuffle.min.js	/^  initialSort: null, \/\/ Shuffle can be initialized with a sort object. It is the same object g/;"	p	class:Shuffle.options
 initialized	docs/js/jquery.shuffle.min.js	/^  initialized: false,$/;"	p	class:Shuffle.settings
 input	docs/css/bootstrap.min.css	/^input {$/;"	s
@@ -3667,6 +3746,8 @@ input[type=time]	docs/css/bootstrap.min.css	/^    input[type=time],$/;"	s
 input[type=time] .input-lg	docs/css/bootstrap.min.css	/^    input[type=time].input-lg,$/;"	c
 input[type=time] .input-sm	docs/css/bootstrap.min.css	/^    input[type=time].input-sm,$/;"	c
 isArray	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:module.exports
+isDefault	.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.0.group
+isDefault	.vscode/tasks.json	/^                "isDefault": true$/;"	b	object:tasks.1.group
 isJSON	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:AnonymousFunction852f2b620900.SimpleJekyllSearch
 isObject	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:module.exports
 itemCss	docs/js/jquery.shuffle.min.js	/^  itemCss : { \/\/ default CSS for each item$/;"	c	class:Shuffle.settings
@@ -3677,7 +3758,11 @@ kbd	docs/css/bootstrap.min.css	/^kbd {$/;"	s
 kbd	docs/css/bootstrap.min.css	/^kbd,$/;"	s
 kbd kbd	docs/css/bootstrap.min.css	/^kbd kbd {$/;"	s
 keywords	settings.ini	/^keywords = Deep Learning, Machine Learning$/;"	k	section:DEFAULT
+kind	.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.0.group
+kind	.vscode/tasks.json	/^                "kind": "build",$/;"	s	object:tasks.1.group
 l	docs/js/jquery.ba-throttle-debounce.min.js	/^(function(b,c){var $=b.jQuery||b.Cowboy||(b.Cowboy={}),a;$.throttle=a=function(e,f,j,i){var h,d=/;"	f	function:g
+label	.vscode/tasks.json	/^            "label": "nbdev-build-lib",$/;"	s	object:tasks.0
+label	.vscode/tasks.json	/^            "label":"nbdev-build-docs",$/;"	s	object:tasks.1
 label	docs/css/bootstrap.min.css	/^label {$/;"	s
 language	settings.ini	/^language = English$/;"	k	section:DEFAULT
 lastFilter	docs/js/jquery.shuffle.min.js	/^  lastFilter: ALL_ITEMS,$/;"	p	class:Shuffle.settings
@@ -3692,7 +3777,7 @@ li.dropdownActive a	docs/css/customstyles.css	/^li.dropdownActive a {$/;"	s
 li.sidebarTitle	docs/css/theme-blue.css	/^li.sidebarTitle {$/;"	c
 li.sidebarTitle	docs/css/theme-green.css	/^li.sidebarTitle {$/;"	c
 lib_name	settings.ini	/^lib_name = dlnotebooks$/;"	k	section:DEFAULT
-lib_path	settings.ini	/^lib_path = %(lib_name)s$/;"	k	section:DEFAULT
+lib_path	settings.ini	/^lib_path = dlnotebooks$/;"	k	section:DEFAULT
 lic	setup.py	/^lic = licenses[cfg['license']]$/;"	v
 license	settings.ini	/^license = apache2$/;"	k	section:DEFAULT
 licenses	setup.py	/^licenses = {$/;"	v
@@ -3707,19 +3792,27 @@ menu	docs/css/bootstrap.min.css	/^menu,$/;"	s
 min_python	settings.ini	/^min_python = 3.6$/;"	k	section:DEFAULT
 min_python	setup.py	/^min_python = cfg['min_python']$/;"	v
 minimumHeaders	docs/js/toc.js	/^      minimumHeaders: 3,$/;"	p	class:$.fn.toc.defaults
-module name here	docs/sidebar.json	/^    "module name here": "\/core"$/;"	s	object:dlnotebooks
-modules	dlnotebooks/_nbdev.py	/^modules = ["core.py"]$/;"	v
+model_urls	dlnotebooks/models/resnet.py	/^model_urls = {$/;"	v
+model_zoo	dlnotebooks/models/resnet.py	/^import torch.utils.model_zoo as model_zoo$/;"	I
+modules	dlnotebooks/_nbdev.py	/^modules = ["modelsae.py"]$/;"	v
 mysidebar	docs/_includes/sidebar.html	/^<ul id="mysidebar" class="nav">$/;"	I
 name	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	p	class:a.fn.navgoco.defaults.cookie
 nav	docs/css/bootstrap.min.css	/^nav,$/;"	s
 navgoco	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	f	function:a.fn
 nbs_path	settings.ini	/^nbs_path = .$/;"	k	section:DEFAULT
-new_function	dlnotebooks/core.py	/^def new_function():$/;"	f
+nn	dlnotebooks/models/resnet.py	/^import torch.nn as nn$/;"	I
+nn	dlnotebooks/models/vae.py	/^import torch.nn as nn$/;"	I
 noBackToTopLinks	docs/js/toc.js	/^      noBackToTopLinks: false,$/;"	p	class:$.fn.toc.defaults
 noResultsText	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	p	class:AnonymousFunction852f2b620900.SimpleJekyllSearch.opt
 none	docs/js/toc.js	/^      none: function() { output.html(html); }$/;"	m	class:$.fn.toc.render
+notebook-container	docs/03-Densenet.html	/^<div class="container" id="notebook-container">$/;"	I
+notebook-container	docs/CIFAR.html	/^<div class="container" id="notebook-container">$/;"	I
+notebook-container	docs/CamVid.html	/^<div class="container" id="notebook-container">$/;"	I
+notebook-container	docs/Cifar 10-Densenet.html	/^<div class="container" id="notebook-container">$/;"	I
+notebook-container	docs/East.html	/^<div class="container" id="notebook-container">$/;"	I
 notebook-container	docs/core.html	/^<div class="container" id="notebook-container">$/;"	I
 notebook-container	docs/index.html	/^<div class="container" id="notebook-container">$/;"	I
+notebook-container	docs/simpleCNN.html	/^<div class="container" id="notebook-container">$/;"	I
 ns3c7f297e0101	docs/fonts/fontawesome-webfont.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
 nse0eac7980101	docs/fonts/glyphicons-halflings-regular.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg">$/;"	n	uri:http://www.w3.org/2000/svg
 ol	docs/css/bootstrap.min.css	/^ol,$/;"	s
@@ -3740,6 +3833,9 @@ openClass	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=functi
 opt	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	c	class:AnonymousFunction852f2b620900.SimpleJekyllSearch
 optgroup	docs/css/bootstrap.min.css	/^optgroup {$/;"	s
 optgroup	docs/css/bootstrap.min.css	/^optgroup,$/;"	s
+optim	dlnotebooks/models/vae.py	/^import torch.optim as optim$/;"	I
+options	.vscode/tasks.json	/^            "options":{$/;"	o	object:tasks.0
+options	.vscode/tasks.json	/^            "options":{$/;"	o	object:tasks.1
 options	docs/js/jquery.shuffle.min.js	/^Shuffle.options = {$/;"	c	class:Shuffle
 ouput_html	docs/css/bootstrap.min.css	/^ouput_html{$/;"	s
 output	docs/css/bootstrap.min.css	/^output {$/;"	s
@@ -3752,6 +3848,8 @@ p.post-meta	docs/css/customstyles.css	/^p.post-meta {font-size: 80%; color: #777
 p.post-meta time	docs/css/customstyles.css	/^p.post-meta time {$/;"	s
 p.required	docs/css/customstyles.css	/^p.required, p.dataType {display: block; color: #c0c0c0; font-size: 80%; margin-left:4px;}$/;"	c
 path	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	p	class:a.fn.navgoco.defaults.cookie
+plt	dlnotebooks/models/_simplecnn.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	dlnotebooks/models/vae.py	/^import matplotlib.pyplot as plt$/;"	I
 position	docs/js/jquery.shuffle.min.js	/^    position: 'absolute',$/;"	p	class:Shuffle.settings.itemCss
 pre	docs/css/bootstrap.min.css	/^    pre {$/;"	s
 pre	docs/css/bootstrap.min.css	/^pre {$/;"	s
@@ -3777,6 +3875,7 @@ render	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){i
 render	docs/js/toc.js	/^    var render = {$/;"	c	class:$.fn.toc
 requirements	settings.ini	/^requirements = fastcore$/;"	k	section:DEFAULT
 requirements	setup.py	/^requirements = cfg.get('requirements','').split()$/;"	v
+results	dlnotebooks/test.py	/^    results = ProcessingPool().map(SleepyBatchFunc, x)$/;"	v
 results-container	docs/_includes/search_simple_jekyll.html	/^    <ul id="results-container"><\/ul>$/;"	I
 resultsContainer	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	p	class:AnonymousFunction852f2b620900.SimpleJekyllSearch.opt
 revealAppendedDelay	docs/js/jquery.shuffle.min.js	/^  revealAppendedDelay: 300,$/;"	p	class:Shuffle.settings
@@ -3785,8 +3884,7 @@ s	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[
 samp	docs/css/bootstrap.min.css	/^samp {$/;"	s
 samp	docs/css/bootstrap.min.css	/^samp,$/;"	s
 save	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	p	class:a.fn.navgoco.defaults
-say	dlnotebooks/core.py	/^    def say(self):$/;"	m	class:helloSayer
-say_hello	dlnotebooks/core.py	/^def say_hello(to):$/;"	f
+say_hello	dlnotebooks/core.py	/^def say_hello(to='puneet'):$/;"	f
 say_hello	docs/core.html	/^<h4 id="say_hello" class="doc_header"><code>say_hello<\/code><a href="https:\/\/github.com\/pmax/;"	I
 search	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:self
 search-demo-container	docs/_includes/search_simple_jekyll.html	/^<div id="search-demo-container">$/;"	I
@@ -3904,6 +4002,7 @@ table.visible-md	docs/css/bootstrap.min.css	/^    table.visible-md {$/;"	c
 table.visible-print	docs/css/bootstrap.min.css	/^    table.visible-print {$/;"	c
 table.visible-sm	docs/css/bootstrap.min.css	/^    table.visible-sm {$/;"	c
 table.visible-xs	docs/css/bootstrap.min.css	/^    table.visible-xs {$/;"	c
+tasks	.vscode/tasks.json	/^    "tasks": [$/;"	a
 tbody.collapse.in	docs/css/bootstrap.min.css	/^tbody.collapse.in {$/;"	c
 td	docs/css/bootstrap.min.css	/^td,$/;"	s
 td.visible-lg	docs/css/bootstrap.min.css	/^    td.visible-lg,$/;"	c
@@ -3944,7 +4043,7 @@ throttleTime	docs/js/jquery.shuffle.min.js	/^  throttleTime: 300, \/\/ How often
 throwError	docs/js/jekyll-search.js	/^!function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a="function"==typeof require&&require/;"	f	function:AnonymousFunction852f2b620900.SimpleJekyllSearch
 time	docs/css/customstyles.css	/^time {$/;"	s
 title	docs/js/toc.js	/^      title: '',$/;"	p	class:$.fn.toc.defaults
-title	settings.ini	/^title = %(lib_name)s$/;"	k	section:DEFAULT
+title	settings.ini	/^title = dlnotebooks$/;"	k	section:DEFAULT
 toc	docs/_includes/toc.html	/^<div id="toc"><\/div>$/;"	I
 toc	docs/js/toc.js	/^  $.fn.toc = function(options) {$/;"	f	function:$.fn
 toggle	docs/js/jquery.navgoco.min.js	/^!function(a){"use strict";var b=function(b,c,d){return this.el=b,this.$el=a(b),this.options=c,th/;"	m	class:b
@@ -3957,6 +4056,8 @@ tr.visible-print	docs/css/bootstrap.min.css	/^    tr.visible-print {$/;"	c
 tr.visible-sm	docs/css/bootstrap.min.css	/^    tr.visible-sm {$/;"	c
 tr.visible-xs	docs/css/bootstrap.min.css	/^    tr.visible-xs {$/;"	c
 transition	docs/js/jquery.shuffle.min.js	/^  'transition' : 'transitionend'$/;"	p	class:AnonymousFunctionf0b6db810300.TRANSITIONEND
+type	.vscode/tasks.json	/^            "type": "shell",$/;"	s	object:tasks.0
+type	.vscode/tasks.json	/^            "type":"shell",$/;"	s	object:tasks.1
 ul	docs/css/bootstrap.min.css	/^ul {$/;"	s
 ul ol	docs/css/bootstrap.min.css	/^ul ol,$/;"	s
 ul ul	docs/css/bootstrap.min.css	/^ul ul {$/;"	s
@@ -3974,6 +4075,7 @@ video	docs/css/customstyles.css	/^video {$/;"	s
 visibility	docs/js/jquery.shuffle.min.js	/^    visibility: 'visible'$/;"	p	class:Shuffle.settings.itemCss
 w	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";"/;"	f	function:window.Modernizr
 width	docs/js/jquery.shuffle.min.js	/^    width: Shuffle._getOuterWidth( item, true ),$/;"	p	class:Shuffle._layoutItem.itemSize
+x	dlnotebooks/test.py	/^    x = np.linspace(0,0.99,20)$/;"	v
 z	docs/js/jquery.shuffle.min.js	/^window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";"/;"	f	function:window.Modernizr
 {{ page.title }}	docs/_includes/archive.html	/^  <h1 class="post-title-main">{{ page.title }}<\/h1>$/;"	h
 {{ page.title }}	docs/_layouts/page.html	/^    <h1 class="post-title-main">{{ page.title }}<\/h1>$/;"	h
